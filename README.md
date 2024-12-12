@@ -1,4 +1,4 @@
-# Cypress Automation Assessment
+# Cypress and Cucumber Framework
 
 This repository contains automated tests for the Magento website using Cypress and Cucumber.
 
