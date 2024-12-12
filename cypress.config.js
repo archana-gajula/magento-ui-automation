@@ -17,5 +17,6 @@ export default defineConfig({
     specPattern: 'cypress/e2e/**/*.feature',
     stepDefinitions: '../support/step_definitions/*.js',
     supportFile: 'cypress/support/e2e.js',
+    baseUrl: 'https://magento.softwaretestingboard.com/',
   },
 });

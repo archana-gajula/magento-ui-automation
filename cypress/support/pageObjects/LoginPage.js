@@ -1,6 +1,6 @@
 class LoginPage {
   visit() {
-    cy.visit("https://magento.softwaretestingboard.com/");
+    cy.visit(Cypress.config('baseUrl'));
   }
 
   createAnAccount() {
@@ -12,7 +12,7 @@ class LoginPage {
   }
   createAccount() {
     cy.get(
-      '.header.links a[href="https://magento.softwaretestingboard.com/customer/account/create/"]'
+        `.header.links a[href="${Cypress.config('baseUrl')}customer/account/create/"]`
     )
       .contains("Create an Account")
       .click();
@@ -58,7 +58,7 @@ class LoginPage {
 
   clickOnSignIn() {
     cy.get(
-      '.header.links a[href="https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/"]'
+        `.header.links a[href="${Cypress.config('baseUrl')}customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/"]`
     )
       .contains("Sign In")
       .click();
