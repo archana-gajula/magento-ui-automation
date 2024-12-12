@@ -1,6 +1,6 @@
 # Cypress and Cucumber Framework
 
-This repository contains automated tests for the Magento website using Cypress and Cucumber.
+This repository contains automated tests for the [Magento](https://magento.softwaretestingboard.com/) website using Cypress and Cucumber.
 
 ## Prerequisites
 
