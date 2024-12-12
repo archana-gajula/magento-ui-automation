@@ -1,0 +1,25 @@
+# Cypress Automation Assessment
+
+This repository contains automated tests for the Magento website using Cypress and Cucumber.
+
+## Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+## Setup
+
+1. **Clone the repository:**
+    ```
+   git clone https://github.com/your-username/cypress-automation-assessment.git
+   cd cypress-automation-assessment
+    ```
+2. **Install the dependencies:**
+    ```bash
+    npm install
+    ```
+3. **Run the tests:**
+    ```bash
+    npm run cy:test
+    ```
+
