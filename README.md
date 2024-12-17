@@ -4,8 +4,7 @@ This repository contains automated tests for the [Magento](https://magento.softw
 
 ## Prerequisites
 
-- Node.js (v14 or higher)
-- npm (v6 or higher)
+- Node.js (v18 or higher)
 
 ## Setup
 
