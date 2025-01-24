@@ -21,4 +21,9 @@ This repository contains automated tests for the [Magento](https://magento.softw
     ```bash
     npm run cy:test
     ```
+4. **Run the tests and generate a report:**
+    ```bash
+   npm run cy:test:report:serve
+    ```
+   
 

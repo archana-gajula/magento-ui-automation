@@ -5,7 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "cy:test": "cypress run"
+    "cy:test": "cypress run",
+    "allure:generate": "allure generate allure-results --clean",
+    "allure:serve": "allure serve allure-results",
+    "cy:test:report:serve": "npm run cy:test && npm run allure:generate && npm run allure:serve"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +16,7 @@
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^22.0.0",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "allure-cypress": "^3.0.9",
     "cypress": "^13.16.1",
     "esbuild": "^0.24.0"
   }
