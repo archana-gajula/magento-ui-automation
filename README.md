@@ -10,8 +10,8 @@ This repository contains automated tests for the [Magento](https://magento.softw
 
 1. **Clone the repository:**
     ```
-   git clone https://github.com/your-username/cypress-automation-assessment.git
-   cd cypress-automation-assessment
+   git clone https://github.com/archana-gajula/magento-ui-automation.git
+   cd magento-ui-automation
     ```
 2. **Install the dependencies:**
     ```bash
